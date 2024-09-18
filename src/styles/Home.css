@@ -1,0 +1,28 @@
+.to-do-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.to-do-list .show-items {
+    width: 100%;
+    max-width: 600px; /* Limit maximum width */
+}
+
+.to-do-list h1 {
+    font-family: "Titan One", sans-serif;
+    font-weight: 2em;
+    font-style: normal;
+    font-size: 50px;
+}
+/*margin: top, right, bottom,, left*/
+.to-do-list .box-main {
+    background-color: black;
+    color:white;
+    display: block;
+    text-align: center;
+    margin: 10px 400px 30px 400px;
+    padding: 20px;
+    flex-direction: column;
+}
